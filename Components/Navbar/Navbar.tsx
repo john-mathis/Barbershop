@@ -27,7 +27,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="max-w-full flex justify-between items-center h-20 bg-zinc-800	px-4 py-2 text-white">
+    <div className="max-w-full flex justify-between items-center h-20 bg-black	px-4 py-2 text-white">
       <p className="text-xl	">The Prime Cutz</p>
       <GiHamburgerMenu
         onClick={handleNavMenu}
@@ -39,7 +39,7 @@ export default function Navbar() {
       />
 
       <div
-        className={`${navSliderClass} flex flex-col h-fit absolute top-20 left-0 bg-zinc-800 md:flex-row md:w-fit md:h-fit md:relative md:top-0 z-10`}
+        className={`${navSliderClass} z-10 flex flex-col h-fit absolute top-20 left-0 bg-black md:flex-row md:w-fit md:h-fit md:relative md:top-0 z-10`}
       >
         <Link
           onClick={handleNavMenu}

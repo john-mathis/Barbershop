@@ -2,6 +2,8 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import Testimonials from "@/Components/Testimonials/Testimonials";
 import Hero from "@/Components/Hero/Hero";
+import Socials from "@/Components/Socials/Socials";
+import Map from "@/Components/Map/Map";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +18,9 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <Testimonials />
+        <Socials />
+        <Map />
       </main>
     </>
   );

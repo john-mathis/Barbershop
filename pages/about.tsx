@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Danny from "../assets/danny.jpg";
+import Danny from "../public/assets/danny.jpg";
 import Image from "next/image";
 
 export interface IAbout {
@@ -22,18 +22,13 @@ export default function about<IAbout>() {
         </div>
         <div>
           <p className="max-w-[90%] mx-auto text-lg mt-8 md:flex md:order-1 md:mt-0 md:ml-8 md:h-120 md:max-w-[45rem] ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
-            eveniet, provident dolorum vero aliquid odio deleniti iste sapiente
-            quisquam reprehenderit libero, laborum voluptatem natus assumenda
-            enim atque at dicta deserunt? Ducimus fugiat culpa, maiores numquam
-            doloremque, minima nisi quisquam aut, optio perferendis
-            reprehenderit voluptatum maxime porro excepturi eveniet sunt. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Et, eveniet,
-            provident dolorum vero aliquid odio deleniti iste sapiente quisquam
-            reprehenderit libero, laborum voluptatem natus assumenda enim atque
-            at dicta deserunt? Ducimus fugiat culpa, maiores numquam doloremque,
-            minima nisi quisquam aut, optio perferendis reprehenderit voluptatum
-            maxime porro excepturi eveniet sunt.
+            Being a passionate barber means much more than simply cutting hair.
+            It's about creating an experience for every customer that walks
+            through the door. I take pride in my work and strive to exceed my
+            clients' expectations with every cut. Through attention to the
+            details, taking the time to understand my client's hair type,
+            preferences, and lifestyle, I offer personalized recommendations to
+            ensure they leave the chair looking and feeling their best.
           </p>
           <p className="flex justify-center	">
             <a
