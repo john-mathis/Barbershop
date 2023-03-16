@@ -4,10 +4,14 @@ import { AiFillStar } from "react-icons/ai";
 export default function Testimonials() {
   return (
     <>
-      <section className="bg-black text-white flex flex-col max-w-full md:flex-row">
+      <p className="text-white text-4xl text-center mt-4">Testimonials</p>
+      <section className="bg-black text-white relative flex flex-col m-auto items-center md:max-w-4xl lg:flex-row lg:max-w-5xl xl:max-w-6xl 2xl:7xl">
         {TestimonialData.map((info) => {
           return (
-            <div className="border-2 p-8 md:w-1/3" key={info.name}>
+            <div
+              className="my-4 border-2 p-8 w-3/4 lg:w-1/3 lg:my-8 lg:mx-2 lg:min-h-[27rem]"
+              key={info.name}
+            >
               <div className="flex items-center mb-4">
                 <img
                   className="w-12 h-12 rounded-full mr-4"

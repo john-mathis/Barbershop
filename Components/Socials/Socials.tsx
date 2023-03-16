@@ -5,13 +5,13 @@ import { BsYoutube } from "react-icons/bs";
 
 export default function Socials() {
   return (
-    <section className="flex flex-col text-center">
-      <p className="uppercase text-2xl">Socials</p>
+    <section className="bg-stone-800 text-white flex flex-col text-center h-48 justify-center	 items-center">
+      <p className="font-bold uppercase text-3xl mb-4">Socials</p>
       <div className="flex justify-center">
-        <BsFacebook className="w-8 h-8 mx-2" />
-        <AiFillInstagram className="w-8 h-8 mx-2" />
-        <FaTiktok className="w-8 h-8 mx-2" />
-        <BsYoutube className="w-8 h-8 mx-2" />
+        <BsFacebook className="w-8 h-8 mx-3 cursor-pointer" />
+        <AiFillInstagram className="w-8 h-8 mx-3 cursor-pointer" />
+        <FaTiktok className="w-8 h-8 mx-3 cursor-pointer" />
+        <BsYoutube className="w-8 h-8 mx-3 cursor-pointer" />
       </div>
     </section>
   );
