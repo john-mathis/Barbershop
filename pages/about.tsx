@@ -7,7 +7,7 @@ export interface IAbout {
   className: string;
 }
 
-export default function about<IAbout>() {
+export default function about() {
   return (
     <>
       <h1 className="text-3xl text-center my-4 md:my-6">About Prime</h1>

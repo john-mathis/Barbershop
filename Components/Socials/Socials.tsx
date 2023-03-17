@@ -5,7 +5,7 @@ import { BsYoutube } from "react-icons/bs";
 
 export default function Socials() {
   return (
-    <section className="bg-stone-800 text-white flex flex-col text-center h-48 justify-center	 items-center">
+    <section className="bg-black text-white flex flex-col text-center h-48 justify-center	 items-center">
       <p className="font-bold uppercase text-3xl mb-4">Socials</p>
       <div className="flex justify-center">
         <BsFacebook className="w-8 h-8 mx-3 cursor-pointer" />

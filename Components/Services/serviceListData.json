@@ -1,0 +1,42 @@
+[
+  {
+    "service": "Men's Haircut",
+    "price": "$40"
+  },
+  {
+    "service": "Men's Haircut w/Beard",
+    "price": "$50"
+  },
+  {
+    "service": "Women's Haircut w/Design",
+    "price": "$50"
+  },
+  {
+    "service": "Women's Haircut",
+    "price": "$40"
+  },
+  {
+    "service": "Kid's Haircut",
+    "price": "$25"
+  },
+  {
+    "service": "Line-Up",
+    "price": "$25"
+  },
+  {
+    "service": "Men's Haircut w/ Enhancements",
+    "price": "$55"
+  },
+  {
+    "service": "Men's Haircut w/ Enhancements & Beard",
+    "price": "$65"
+  },
+  {
+    "service": "Women's Undercut",
+    "price": "$25"
+  },
+  {
+    "service": "Women's Undercut w/ Design ",
+    "price": "$35"
+  }
+]

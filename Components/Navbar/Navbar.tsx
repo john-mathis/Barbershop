@@ -66,18 +66,10 @@ export default function Navbar() {
         </Link>
         <Link
           onClick={handleNavMenu}
-          href=""
+          href="/services"
           className="py-4 text-center uppercase cursor-pointer border-b w-full md:w-24 md:border-b-0 lg:hover:bg-stone-400"
         >
-          Prices
-        </Link>
-
-        <Link
-          onClick={handleNavMenu}
-          href=""
-          className="py-4 text-center uppercase cursor-pointer w-full  md:w-24 md:border-b-0  lg:hover:bg-stone-400"
-        >
-          Book now
+          Services
         </Link>
       </div>
     </div>

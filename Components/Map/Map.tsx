@@ -1,7 +1,7 @@
 export default function Map() {
   return (
     <iframe
-      className="max-w-full w-full h-[30vh]"
+      className="max-w-full w-full h-[40vh]"
       style={{ border: 0 }}
       loading="lazy"
       allowFullScreen
