@@ -27,7 +27,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="max-w-full flex justify-between items-center h-20 bg-black	px-4 py-2 text-white">
+    <section className="max-w-full flex justify-between items-center h-20 bg-black	px-4 py-2 text-white">
       <p className="text-xl	">The Prime Cutz</p>
       <GiHamburgerMenu
         onClick={handleNavMenu}
@@ -72,6 +72,6 @@ export default function Navbar() {
           Services
         </Link>
       </div>
-    </div>
+    </section>
   );
 }
