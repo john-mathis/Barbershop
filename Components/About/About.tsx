@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Danny from "../../public/assets/danny.jpg";
 import Image from "next/image";
 
@@ -9,9 +8,9 @@ export interface IAbout {
 
 export default function About() {
   return (
-    <>
+    <section>
       <h1 className="text-3xl text-center my-4 mt-8 ">About Prime</h1>
-      <div className="relative px-16 py-16 m-auto lg:flex lg:justify-center xl:max-w-[76rem] xl:justify-between 2xl:max-w-[80rem]">
+      <div className="relative px-16 py-8 m-auto lg:flex lg:justify-center xl:max-w-[76rem] xl:justify-between 2xl:max-w-[80rem]">
         <div>
           <Image
             className="w-[18rem] mt-8 m-auto sm:w-[22rem] md:w-[25rem] md:my-0 md:mb-0 lg:max-w-[20rem]"
@@ -47,6 +46,14 @@ export default function About() {
           </p>
         </div>
       </div>
-    </>
+      <div className="flex justify-center pb-16">
+        <a
+          href="/"
+          className="text-center h-12 rounded m-auto bg-green-500 px-8 flex justify-center items-center hover:bg-slate-700"
+        >
+          Book with Prime
+        </a>
+      </div>
+    </section>
   );
 }

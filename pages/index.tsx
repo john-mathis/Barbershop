@@ -4,7 +4,7 @@ import Testimonials from "@/Components/Testimonials/Testimonials";
 import Hero from "@/Components/Hero/Hero";
 import Socials from "@/Components/Socials/Socials";
 import Map from "@/Components/Map/Map";
-import Footer from "@/Components/Footer/Footer";
+import Three from "@/Components/Three/Three";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +19,10 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <Testimonials />
+        <Three />
         <Socials />
+        <Testimonials />
         <Map />
-        <Footer />
       </main>
     </>
   );

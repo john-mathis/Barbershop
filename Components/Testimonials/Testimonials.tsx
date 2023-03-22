@@ -5,11 +5,11 @@ export default function Testimonials() {
   return (
     <>
       <p className="text-4xl text-center mt-8">Testimonials</p>
-      <section className="py-4 relative flex flex-col m-auto items-center md:max-w-4xl lg:flex-row lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl">
+      <section className="py-8 px-4 relative flex flex-col m-auto items-center md:max-w-4xl lg:grid lg:grid-cols-2 lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl 2xl:grid-cols-4">
         {TestimonialData.map((info) => {
           return (
             <div
-              className="my-4 border-2 p-8 w-3/4 lg:w-1/3 lg:my-8 lg:mx-2 lg:min-h-[23rem]"
+              className="my-4 border-2 p-6 max-w-sm sm:max-w-md md:max-w-lg lg:max-w-sm 4 lg:my-8 lg:mx-auto lg:h-[18rem] xl:mx-auto xl:h-[23rem] 2xl:mx-2"
               key={info.name}
             >
               <div className="flex items-center mb-4">

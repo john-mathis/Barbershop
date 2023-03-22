@@ -27,11 +27,12 @@ export default function Footer() {
           <p>Email: info@example.com </p>
           <div className="mt-4">
             <p className="text-white text-xl font-bold mb-1">Hours</p>
-            <p className="mb-1">Tuesday: 8:00am-6:00pm</p>
-            <p className="mb-1">Wednesday: 8:00am-6:00pm</p>
-            <p className="mb-1">Thursday: 9:00am-5:00pm</p>
-            <p className="mb-1">Friday: 8:00am-8:00pm</p>
-            <p className="mb-1">Satuday: 8:00am-8:00pm</p>
+            <p className="mb-1">Monday: 9:00am-7:00pm</p>
+            <p className="mb-1">Tuesday: 9:00am-7:00pm</p>
+            <p className="mb-1">Wednesday: 9:00am-7:00pm</p>
+            <p className="mb-1">Thursday: 9:00am-7:00pm</p>
+            <p className="mb-1">Friday: 9:00am-4:00pm</p>
+            <p className="mb-1">Satuday: 9:00am-7:00pm</p>
           </div>
         </div>
       </div>
