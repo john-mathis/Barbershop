@@ -2,7 +2,7 @@ import { MdOutlineCleanHands } from "react-icons/md";
 import { MdComputer } from "react-icons/md";
 import { AiFillClockCircle } from "react-icons/ai";
 
-export default function Three() {
+export default function Solutions() {
   return (
     <>
       <section className="m-auto py-12 px-4 max-w-6xl md:text-center">
