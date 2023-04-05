@@ -16,13 +16,11 @@ export default function Navbar() {
       setOpenMenuClass("flex");
       setIsMenuOpen(!isMenuOpen);
       setNavSliderClass("w-0 hidden md:flex");
-      // document.body.style.overflow = "auto";
     } else {
       setCloseMenuClass("flex");
       setOpenMenuClass("hidden");
       setIsMenuOpen(!isMenuOpen);
       setNavSliderClass("w-full flex");
-      // document.body.style.overflow = "hidden";
     }
   };
 

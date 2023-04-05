@@ -1,11 +1,6 @@
 import Danny from "../../public/assets/danny.jpg";
 import Image from "next/image";
 
-export interface IAbout {
-  src: string;
-  className: string;
-}
-
 export default function About() {
   return (
     <section>

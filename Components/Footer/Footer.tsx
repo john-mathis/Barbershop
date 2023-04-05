@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Footer() {
   return (
     <section className="bg-black text-gray-400 relative p-10 ">
@@ -25,31 +23,17 @@ export default function Footer() {
           <p>Address: 87 Main Steet, Hartford, Connecticut, 06106 </p>
           <p>Phone: 860-221-4233 </p>
           <p>Email: info@example.com </p>
-          <div className="mt-4">
-            <p className="text-white text-xl font-bold mb-1">Hours</p>
-            <p className="mb-1">Monday: 9:00am-7:00pm</p>
-            <p className="mb-1">Tuesday: 9:00am-7:00pm</p>
-            <p className="mb-1">Wednesday: 9:00am-7:00pm</p>
-            <p className="mb-1">Thursday: 9:00am-7:00pm</p>
-            <p className="mb-1">Friday: 9:00am-4:00pm</p>
-            <p className="mb-1">Satuday: 9:00am-7:00pm</p>
-          </div>
+          <ul className="mt-4">
+            <li className="text-white text-xl font-bold mb-1">Hours</li>
+            <li className="mb-1">Monday: 9:00am-7:00pm</li>
+            <li className="mb-1">Tuesday: 9:00am-7:00pm</li>
+            <li className="mb-1">Wednesday: 9:00am-7:00pm</li>
+            <li className="mb-1">Thursday: 9:00am-7:00pm</li>
+            <li className="mb-1">Friday: 9:00am-4:00pm</li>
+            <li className="mb-1">Satuday: 9:00am-7:00pm</li>
+          </ul>
         </div>
       </div>
-      {/* <div className="mt-12 flex justify-evenly m-auto text-center px-4 w-3/4">
-        <Link className="text-white mr-4 text-lg" href="/">
-          Home
-        </Link>
-        <Link className="text-white mr-4 text-lg" href="/about">
-          About
-        </Link>
-        <Link className="text-white mr-4 text-lg" href="/gallery">
-          Gallery
-        </Link>
-        <Link className="text-white mr-4 text-lg" href="/services">
-          Services
-        </Link>
-      </div> */}
     </section>
   );
 }
