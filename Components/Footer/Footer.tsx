@@ -5,17 +5,13 @@ export default function Footer() {
         <div className="my-4 md:my-0 md:w-2/4 px-6">
           <p className="text-xl font-bold mb-2 text-white">The Prime Cutz</p>
           <p className="mb-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
-            accusantium. Ex repudiandae totam ea quaerat voluptatem.
-            Voluptatibus culpa similique itaque mollitia. Autem, quae rerum sit,
-            amet provident quisquam ullam non consequuntur quos dolorem ea ab
-            dolorum accusamus, ipsum fugit omnis quidem alias corrupti!
-            Voluptatem tempora, voluptas odio eius esse molestias.
-          </p>
-
-          <p className="mb-2">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
-            accusantium. Ex repudiandae totam ea quaerat voluptatem.
+            Ready for a fresh new look? Our barbershop offers expert haircuts
+            and grooming services that will leave you looking and feeling your
+            best. Our skilled barbers use the latest techniques and top-quality
+            products to deliver the perfect cut for your hair type and style.
+            From classic cuts to trendy styles, we've got you covered. Don't
+            settle for an average haircut – visit our barbershop today and
+            experience the difference. Walk-ins are always welcome!
           </p>
         </div>
         <div className="my-4 md:my-0 md:w-2/4 px-6">

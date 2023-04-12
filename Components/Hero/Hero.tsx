@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
         <a
           className="mt-8 px-12 py-3 bg-gradient-to-r from-amber-500 to-red-600 hover:from-amber-600 hover:to-red-700 text-xl text-white font-semibold drop-shadow-lg rounded-full"
-          href=""
+          href="/services"
         >
           BOOK NOW
         </a>

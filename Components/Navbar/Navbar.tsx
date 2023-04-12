@@ -26,7 +26,9 @@ export default function Navbar() {
 
   return (
     <section className="max-w-full flex justify-between items-center h-20 bg-black	px-4 py-2 text-white">
-      <p className="text-xl	">The Prime Cutz</p>
+      <Link href="/" className="text-xl	">
+        The Prime Cutz
+      </Link>
       <GiHamburgerMenu
         onClick={handleNavMenu}
         className={`${openMenuClass} h-6 w-6 md:hidden cursor-pointer`}
