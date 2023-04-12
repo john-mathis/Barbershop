@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <section className="bg-black text-gray-400 relative p-10 ">
-      <div className="flex flex-col md:flex-row">
+    <section className="bg-black text-gray-400 relative p-10  ">
+      <div className="flex flex-col md:flex-row max-w-7xl m-auto">
         <div className="my-4 md:my-0 md:w-2/4 px-6">
           <p className="text-xl font-bold mb-2 text-white">The Prime Cutz</p>
           <p className="mb-4">
@@ -18,7 +18,7 @@ export default function Footer() {
           <p className="text-xl font-bold mb-2 text-white">Contact Us</p>
           <p>Address: 87 Main Steet, Hartford, Connecticut, 06106 </p>
           <p>Phone: 860-221-4233 </p>
-          <p>Email: info@example.com </p>
+          <p>Email: dannytheprimeone@gmail.com </p>
           <ul className="mt-4">
             <li className="text-white text-xl font-bold mb-1">Hours</li>
             <li className="mb-1">Monday: 9:00am-7:00pm</li>
