@@ -1,6 +1,6 @@
 import Danny from "../../public/assets/danny.jpg";
 import Image from "next/image";
-
+import Link from "next/link";
 export default function About() {
   return (
     <section>
@@ -42,12 +42,12 @@ export default function About() {
         </div>
       </div>
       <div className="flex justify-center pb-16">
-        <a
-          href="/"
+        <Link
+          href="/services"
           className="text-center h-12 rounded m-auto bg-green-500 px-8 flex justify-center items-center hover:bg-slate-700"
         >
           Book with Prime
-        </a>
+        </Link>
       </div>
     </section>
   );

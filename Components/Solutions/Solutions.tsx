@@ -24,10 +24,10 @@ export default function Solutions() {
             </p>
             <MdComputer className="h-12 w-12 mx-auto my-4 " />
             <p className="max-w-[25rem] sm:max-w-[30rem] m-auto">
-              By understanding your wants and needs, delivering in a timely and
-              efficient manner, I ensure that clients are satisfied with their
-              experience. Save time and money by minimizing waste and maximizing
-              resources.
+              I take pride in understanding your wants and needs. My goal is
+              delivering in a timely and efficient manner, I ensure that clients
+              are satisfied with their experience. Save time and money by
+              minimizing waste and maximizing resources.
             </p>
           </div>
 
