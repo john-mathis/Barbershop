@@ -1,6 +1,6 @@
 import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
-import { FaTiktok } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 import Link from "next/link";
 
@@ -15,9 +15,12 @@ export default function Socials() {
         <Link href="https://instagram.com/_theprimecutz" target="_blank">
           <AiFillInstagram className="w-8 h-8 mx-3 cursor-pointer" />
         </Link>
-
-        <FaTiktok className="w-8 h-8 mx-3 cursor-pointer" />
-        <BsYoutube className="w-8 h-8 mx-3 cursor-pointer" />
+        <Link href="https://twitter.com/_theprimeone" target="_blank">
+          <BsTwitter className="w-8 h-8 mx-3 cursor-pointer" />
+        </Link>
+        <Link href="https://youtube.com/@BlazeYo15" target="_blank">
+          <BsYoutube className="w-8 h-8 mx-3 cursor-pointer" />
+        </Link>
       </div>
     </section>
   );
