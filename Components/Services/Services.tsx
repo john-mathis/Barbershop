@@ -3,7 +3,7 @@ import Link from "next/link";
 import serviceData from "../Services/serviceListData.json";
 export default function services() {
   return (
-    <section className="max-w-7xl m-auto my-8">
+    <section className="max-w-7xl m-auto my-8 py-6">
       <h1 className="text-center text-4xl">Services</h1>
       {serviceData.map((data) => {
         return (
