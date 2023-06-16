@@ -15,9 +15,8 @@ export default function services() {
             <div className="flex flex-row items-center ">
               <p>{data.price}</p>
               <Link
-                target="_blank"
                 className="bg-green-500 rounded-lg ml-8 px-4 py-2 flex place-self-center pointer hover:bg-slate-700"
-                href="https://booksy.com/en-us/615281_danny-theprimecutz_barber-shop_15320_hartford"
+                href="/appointments"
               >
                 Book
               </Link>
